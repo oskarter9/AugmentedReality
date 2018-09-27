@@ -14,10 +14,10 @@ MonoBehaviour:
   vuforia:
     vuforiaLicenseKey: AY8wdRX/////AAABmV4bnhu0BEorrfoYR/VySK9f2cxX/KMhV9VbFRlRW6Z2nvBqbYeX43Ja1JMQ/K+VQ+/B0aeeo2EWPDu7chhTIPk1MBlxByvwJhL8yaAP+yeeFMK1Tszw79IFl3oYtguHv2Rtl4Gd4C1+gKQkP00BMBFyvjALrxn3P2FZ+b6dLje67bqaoB9JCNOsBPVOmAQGABX9B6RaoKrDmqS31QnCMUQLROwwDLJl1ITcnOPLBybXSNtRlLn6rmdymjvLIR66NAwvgojaAVU3S3VMK3F0cbOhGVFlQOULsi6fxjerErKiSELJmFBEvrRygCDMkgGzaMe6uXjoh6dsyKigA1V7ZF+ni8e2Hrxk1X93wqS6vS1h
     delayedInitialization: 0
-    cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 0
+    cameraDeviceModeSetting: -3
+    maxSimultaneousImageTargets: 4
+    maxSimultaneousObjectTargets: 4
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
   digitalEyewear:
@@ -44,8 +44,10 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - Chemistry
     - target_images
     dataSetsToActivate:
+    - Chemistry
     - target_images
   videoBackground:
     clippingMode: 0
