@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="DobleOxigeno" size="50.000000 25.000000" />
-    <ImageTarget name="Hidrogeno" size="50.000000 50.000000" />
-    <ImageTarget name="Oxigeno1" size="50.000000 50.000000" />
-    <ImageTarget name="Oxigeno" size="50.000000 50.000000" />
+    <ImageTarget name="O2" size="50.000000 25.000000" />
+    <ImageTarget name="Oxigen2" size="50.000000 50.000000" />
+    <ImageTarget name="Chlorine" size="50.000000 50.000000" />
+    <ImageTarget name="Sodium" size="50.000000 50.000000" />
+    <ImageTarget name="Hydrogen" size="50.000000 50.000000" />
+    <ImageTarget name="Oxigen" size="50.000000 50.000000" />
   </Tracking>
 </QCARConfig>
