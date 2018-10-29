@@ -44,8 +44,10 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - target_images
     - Chemistry
     dataSetsToActivate:
+    - target_images
     - Chemistry
   videoBackground:
     clippingMode: 0
